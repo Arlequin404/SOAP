@@ -25,7 +25,7 @@ To clone this project, run the following command:
 
 ```bash
 git clone https://your-repository-url.git
-
+```
 2. Run the Project
 To run the project, follow these steps:
 
@@ -33,23 +33,26 @@ Without Docker:
 
 Navigate to the project directory:
 bash
-Copiar código
-
+```bash
 cd soap-hello-world
+```
 Start the PHP embedded server:
-bash
-Copiar código
+
+```bash
 php -S localhost:8000
+```
 With Docker (Recommended):
 
 Build the Docker image:
-bash
-Copiar código
+
+```bash
 docker build -t soap-server .
+```
 Run the Docker container:
-bash
-Copiar código
+
+```bash
 docker run -p 8000:8000 soap-server
+```
 The server will be accessible at http://localhost:8000/soap-server.php.
 
 Docker Hub
@@ -65,7 +68,7 @@ Copiar código
 
 ```markdown
 # Proyecto SOAP Hello World
-
+```
 Este proyecto demuestra un simple servicio web SOAP implementado en PHP. Consiste en un servidor (`soap-server.php`) y un cliente (`test-soap.php`) que interactúa con el servidor para realizar operaciones básicas SOAP. El proyecto está dockerizado para facilitar su despliegue y ejecución.
 
 ## Requisitos
@@ -91,29 +94,30 @@ Para clonar este proyecto, ejecuta el siguiente comando:
 
 ```bash
 git clone https://your-repository-url.git
+```
 2. Ejecutar el Proyecto
 Para ejecutar el proyecto, sigue estos pasos:
 
 Sin Docker:
 
 Navega al directorio del proyecto:
-bash
-Copiar código
+```bash
 cd soap-hello-world
+
 Inicia el servidor PHP embebido:
-bash
-Copiar código
+```bash
 php -S localhost:8000
+```
 Con Docker (Recomendado):
 
 Construye la imagen de Docker:
-bash
-Copiar código
+```bash
 docker build -t soap-server .
+```
 Ejecuta el contenedor de Docker:
-bash
-Copiar código
+```bash
 docker run -p 8000:8000 soap-server
+```
 El servidor será accesible en http://localhost:8000/soap-server.php.
 
 Docker Hub
@@ -122,8 +126,6 @@ Para obtener imágenes de Docker preconstruidas, visita el enlace de Docker Hub 
 Licencia
 Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo LICENSE para más detalles.
 
-markdown
-Copiar código
 
 ### **Descripción de las secciones:**
 
@@ -134,4 +136,4 @@ Copiar código
 5. **Docker Hub**: Añade un enlace a Docker Hub para descargar imágenes preconstruidas (si corresponde).
 6. **License**: Incluye información sobre la licencia del proyecto (si aplica).
 
-Puedes personalizar la URL de Docker Hub y la URL de tu repositorio en los apartados correspondientes
+
